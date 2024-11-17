@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和平精英俱乐部</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 隐藏背景音乐播放器 -->
+    <audio id="background-music" autoplay loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+        您的浏览器不支持 HTML5 音频，请升级您的浏览器。
+    </audio>
+
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="俱乐部Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#events">活动</a></li>
+                <li><a href="#team">战队展示</a></li>
+                <li><a href="#members">俱乐部成员</a></li>
+                <li><a href="#ranking">排行榜</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>欢迎来到和平精英俱乐部</h1>
+            <p>加入我们，一起成就更强大的自己！</p>
+            <a href="#about" class="cta-button">了解更多</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>关于我们</h2>
+        <p>和平精英俱乐部致力于为玩家提供一个分享游戏心得、技巧、组织比赛的温暖社区。无论你是新手还是老玩家，都可以在这里找到属于自己的位置。</p>
+    </section>
+
+    <section id="events" class="events">
+        <h2>俱乐部活动</h2>
+        <div class="event-list">
+            <div class="event">
+                <h3>每月带人挑战赛</h3>
+                <p>为你提供一个展现自我的舞台，每个月的挑战赛等你来战。</p>
+            </div>
+            <div class="event">
+                <h3>技巧分享会</h3>
+                <p>与其他玩家一起交流心得，提升游戏技能，加入我们的分享会吧。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>战队展示</h2>
+        <div class="team-list">
+            <div class="team-member">
+                <img src="assets/team1.jpg" alt="战队1">
+                <h3>战队一：sb战队</h3>
+                <p>我们的目标是没有目标！</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/team2.jpg" alt="战队2">
+                <h3>战队二：无敌战队</h3>
+                <p>团结一致，撤离失败！</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="members">
+        <h2>我们的成员</h2>
+        <div class="member-list">
+            <div class="member">
+                <h3>成员一：凤凰终</h3>
+                <p>战斗经验丰富，擅长策略布局。</p>
+            </div>
+            <div class="member">
+                <h3>成员二：终凤凰</h3>
+                <p>技术精湛，曾多次撤离成功。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ranking" class="ranking">
+        <h2>俱乐部排行榜</h2>
+        <ul>
+            <li>1. 凤凰终 - 2000万钱</li>
+            <li>2. 终凤凰 - 1725万元</li>
+            <li>3. 快手元蛋 - 1400万元</li>
+            <li>4. 牢大 - 200万元</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系我们</h2>
+        <form>
+            <input type="text" placeholder="姓名" required>
+            <input type="email" placeholder="邮箱" required>
+            <textarea placeholder="留言" required></textarea>
+            <button type="submit">提交</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 和平精英俱乐部. 保留所有权利.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
